@@ -2,6 +2,51 @@ ul {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#hate {
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: darkorange;
+}
+
+h2 {
+    color: orange;
+    font: larger;
+    border: 2px solid orangered;
+}
+
+p {
+    font-size: large;
+}
+
+#h3love {
+    color: green;
+}
+
+#lilove {
+    color: green;
+    font-style: italic;
+    }
+
+#h3hate {
     color: red;
+}
+
+#lihate {
+    color: red;
+    font-weight: bold;
+}
+
+#lovetext {
+    color: green;
+}
+
+#hatetext {
+    color: red;
+}
+
+#main div {
+  -ms-flex: 1; /* IE 10 */
+  flex: 3;
 }
